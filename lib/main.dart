@@ -12,9 +12,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        // appBar: AppBar(
-        //   title: Text('Split Components Example'),
-        // ),
+        appBar: AppBar(
+          title: Text('belajar flutter '),
+        ),
         body: Column(
           children: <Widget>[
             CustomNavbar(), // Memanggil navbar yang sudah dibuat
