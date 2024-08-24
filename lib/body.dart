@@ -33,6 +33,12 @@ class CustomBody extends StatelessWidget {
       description:
           'My Hero Academia is a Japanese superhero manga series written and illustrated by Kōhei Horikoshi.',
     ),
+    AnimeCard(
+      title: 'My Hero Academia',
+      imageUrl: 'https://via.placeholder.com/300', // URL gambar sampul
+      description:
+          'My Hero Academia is a Japanese superhero manga series written and illustrated by Kōhei Horikoshi.',
+    ),
     // Tambahkan kartu lainnya sesuai kebutuhan
   ];
 
