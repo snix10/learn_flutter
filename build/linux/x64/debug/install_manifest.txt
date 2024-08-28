@@ -1,0 +1,12 @@
+/home/ubuntu/FLUTTER/belajar_flutter/build/linux/x64/debug/bundle/learn_flutter_coba
+/home/ubuntu/FLUTTER/belajar_flutter/build/linux/x64/debug/bundle/data/icudtl.dat
+/home/ubuntu/FLUTTER/belajar_flutter/build/linux/x64/debug/bundle/lib/libflutter_linux_gtk.so
+/home/ubuntu/FLUTTER/belajar_flutter/build/linux/x64/debug/bundle/data/flutter_assets/fonts/MaterialIcons-Regular.otf
+/home/ubuntu/FLUTTER/belajar_flutter/build/linux/x64/debug/bundle/data/flutter_assets/FontManifest.json
+/home/ubuntu/FLUTTER/belajar_flutter/build/linux/x64/debug/bundle/data/flutter_assets/shaders/ink_sparkle.frag
+/home/ubuntu/FLUTTER/belajar_flutter/build/linux/x64/debug/bundle/data/flutter_assets/version.json
+/home/ubuntu/FLUTTER/belajar_flutter/build/linux/x64/debug/bundle/data/flutter_assets/kernel_blob.bin
+/home/ubuntu/FLUTTER/belajar_flutter/build/linux/x64/debug/bundle/data/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf
+/home/ubuntu/FLUTTER/belajar_flutter/build/linux/x64/debug/bundle/data/flutter_assets/NOTICES.Z
+/home/ubuntu/FLUTTER/belajar_flutter/build/linux/x64/debug/bundle/data/flutter_assets/AssetManifest.json
+/home/ubuntu/FLUTTER/belajar_flutter/build/linux/x64/debug/bundle/data/flutter_assets/AssetManifest.bin
