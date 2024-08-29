@@ -9,15 +9,13 @@ class HelloWorld extends StatelessWidget {
       ),
       body: Column(
         children: [
-          Center(
-            child: Container(
-                color: Colors.lightBlue,
-                width: 150,
-                height: 50,
-                child: Text('Hello World..........', textAlign: TextAlign.center)),
-                
-                
-                
+          Container(
+            color: Colors.lightBlue,
+            width: 150,
+            height: 50,
+            child: Center(
+              child: Text('Hello World..........', textAlign: TextAlign.center),
+            ),
           ),
         ],
       ),

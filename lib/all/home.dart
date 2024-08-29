@@ -9,38 +9,79 @@ class HomePage extends StatelessWidget {
       appBar: AppBar(
         title: Text('Home learn flutter'),
       ),
-      body: Center(
-        child: Row(
-          children: [
-            Column(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: <Widget>[
-                Text('Welcome to Home Page'),
-                SizedBox(height: 20),
-                ElevatedButton(
-                  onPressed: () {
-                    // Navigasi ke DetailPage
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(builder: (context) => DetailPage()),
-                    );
-                  },
-                  child: Text('Go to Detail Page'),
-                ),
-                ElevatedButton(
-                  onPressed: () {
-                    // Navigasi ke DetailPage
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(builder: (context) =>  HelloWorld()),
-                    );
-                  },
-                  child: Text('HelloWorld'),
-                ),
-              ],
+      body: Row(
+        children: [
+          Text('Welcome to Home Page'),
+          SizedBox(height: 20),
+          ElevatedButton(
+            onPressed: () {
+              // Navigasi ke DetailPage
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => DetailPage()),
+              );
+            },
+            child: Text('Go to Detail Page'),
+          ),
+          ElevatedButton(
+            onPressed: () {
+              // Navigasi ke DetailPage
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) =>  HelloWorld()),
+              );
+            },
+            child: Text('HelloWorld'),
+          ),
+          Container(
+            padding: EdgeInsets.all(10),
+            child: ElevatedButton(
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => HelloWorld()),
+              );
+            },
+            style: ElevatedButton.styleFrom(
+              padding: EdgeInsets.all(8),
+              minimumSize: Size(100, 100), // Ukuran kotak
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.zero, // Bentuk kotak
+              ),
             ),
-          ],
-        ),
+            child: Icon(
+              Icons.ac_unit, // Ikon yang ingin ditampilkan
+              size: 50, // Ukuran ikon
+            ),
+            
+            ),
+            
+          ),
+           Container(
+            child: ElevatedButton(
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => HelloWorld()),
+              );
+            },
+            style: ElevatedButton.styleFrom(
+              padding: EdgeInsets.all(8),
+              minimumSize: Size(100, 100), // Ukuran kotak
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.zero, // Bentuk kotak
+              ),
+            ),
+            child: Icon(
+              Icons.ac_unit, // Ikon yang ingin ditampilkan
+              size: 50, // Ukuran ikon
+            ),
+            
+            ),
+            
+          ),
+          
+        ],
       ),
     );
   }
