@@ -46,7 +46,7 @@ class HomePage extends StatelessWidget {
                 padding: EdgeInsets.all(8),
                 minimumSize: Size(100, 100), // Ukuran kotak
                 shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.zero, // Bentuk kotak
+                  borderRadius: BorderRadius.circular(100), // Bentuk kotak
                 ),
               ),
               child: Icon(
@@ -56,6 +56,7 @@ class HomePage extends StatelessWidget {
             ),
           ),
           Container(
+            padding: EdgeInsets.all(10),
             child: ElevatedButton(
               onPressed: () {
                 Navigator.push(
@@ -67,19 +68,39 @@ class HomePage extends StatelessWidget {
                 padding: EdgeInsets.all(8),
                 minimumSize: Size(100, 100), // Ukuran kotak
                 shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.zero, // Bentuk kotak
+                  borderRadius:
+                      BorderRadius.circular(10), // Mengatur sudut rounded
                 ),
               ),
-              
               child: Icon(
-                Icons.ac_unit, // Ikon yang ingin ditampilkan
+                Icons.usb_rounded, // Ikon yang ingin ditampilkan
                 size: 50, // Ukuran ikon
-                
               ),
-              
             ),
           ),
-          
+
+          Container(
+            padding: EdgeInsets.all(10),
+            child: ElevatedButton(
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => DetailPage()),
+                );
+              },
+              style: ElevatedButton.styleFrom(
+                padding: EdgeInsets.all(8),
+                minimumSize: Size(100, 100), // Ukuran kotak
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(10), // Bentuk kotak
+                ),
+              ),
+              child: Icon(
+                Icons.verified_user_rounded, // Ikon yang ingin ditampilkan
+                size: 50, // Ukuran ikon
+              ),
+            ),
+          ),
         ],
       ),
     );
