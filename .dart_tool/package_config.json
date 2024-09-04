@@ -20,6 +20,12 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "circular_menu",
+      "rootUri": "file:///home/ubuntu/.pub-cache/hosted/pub.dev/circular_menu-4.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.3"
+    },
+    {
       "name": "clock",
       "rootUri": "file:///home/ubuntu/.pub-cache/hosted/pub.dev/clock-1.1.1",
       "packageUri": "lib/",
@@ -170,7 +176,7 @@
       "languageVersion": "3.5"
     }
   ],
-  "generated": "2024-08-30T10:48:40.636062Z",
+  "generated": "2024-09-03T14:17:48.105795Z",
   "generator": "pub",
   "generatorVersion": "3.5.1",
   "flutterRoot": "file:///home/ubuntu/snap/flutter/common/flutter",
