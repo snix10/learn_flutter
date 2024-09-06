@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:circular_menu/circular_menu.dart';
 import 'dart:math'; // Untuk pi
 
-
 // class MenuSirkular extends StatelessWidget {
 //   @override
 //   Widget build(BuildContext context) {
@@ -35,34 +34,38 @@ class MenuSirkular extends StatelessWidget {
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: <Widget>[
-                MaterialButton(
-                  onPressed: () {
-                    _menuKey.currentState?.forwardAnimation();
-                  },
-                  color: Colors.pink,
-                  shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(15),
-                  ),
-                  padding: const EdgeInsets.all(15),
-                  child: Text(
-                    'Open',
-                    style: TextStyle(color: Colors.white, fontSize: 24),
-                  ),
-                ),
-                MaterialButton(
-                  onPressed: () {
-                    _menuKey.currentState?.reverseAnimation();
-                  },
-                  color: Colors.pink,
-                  shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(15),
-                  ),
-                  padding: const EdgeInsets.all(15),
-                  child: Text(
-                    'Close',
-                    style: TextStyle(color: Colors.white, fontSize: 24),
-                  ),
-                ),
+                // MaterialButton(
+                //   onPressed: () {
+                //     _menuKey.currentState?.forwardAnimation();
+                //   },
+                //   color: Colors.pink,
+                //   shape: RoundedRectangleBorder(
+                //     borderRadius: BorderRadius.circular(15),
+                //   ),
+                //   padding: const EdgeInsets.all(15),
+                //   child: Icon(Icons.menu, // Ganti dengan ikon menu garis tiga
+                //       color: Colors.white,
+                //       size: 24),
+                //   // child: Image.asset(
+                //   //   'assets/your_custom_icon.png', // Ganti dengan path ikon kustom Anda
+                //   //   width: 24,
+                //   //   height: 24,
+                //   // ),
+                // ),
+                // MaterialButton(
+                //   onPressed: () {
+                //     _menuKey.currentState?.reverseAnimation();
+                //   },
+                //   color: Colors.pink,
+                //   shape: RoundedRectangleBorder(
+                //     borderRadius: BorderRadius.circular(15),
+                //   ),
+                //   padding: const EdgeInsets.all(15),
+                //   child: Text(
+                //     'Close',
+                //     style: TextStyle(color: Colors.white, fontSize: 24),
+                //   ),
+                // ),
               ],
             ),
           ),
@@ -99,22 +102,7 @@ class MenuSirkular extends StatelessWidget {
               color: Colors.deepPurple,
               iconColor: Colors.white,
             ),
-            CircularMenuItem(
-              icon: Icons.settings,
-              onTap: () {
-                // Action for settings icon
-              },
-              color: Colors.deepPurple,
-              iconColor: Colors.white,
-            ),
-            CircularMenuItem(
-              icon: Icons.settings,
-              onTap: () {
-                // Action for settings icon
-              },
-              color: Colors.deepPurple,
-              iconColor: Colors.white,
-            ),
+            
           ],
         ),
       ),
