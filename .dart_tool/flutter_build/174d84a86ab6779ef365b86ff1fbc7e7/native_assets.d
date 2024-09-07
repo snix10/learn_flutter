@@ -1,0 +1,1 @@
+ /home/ubuntu/FLUTTER/belajar_flutter/.dart_tool/flutter_build/174d84a86ab6779ef365b86ff1fbc7e7/native_assets.yaml: 
