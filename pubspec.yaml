@@ -40,6 +40,7 @@ dependencies:
   fab_circular_menu_plus: ^0.0.2
   easy_sidemenu: ^0.6.0
   flutter_sliding_up_panel: ^2.1.1
+  
 
 dev_dependencies:
   flutter_test:

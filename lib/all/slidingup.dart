@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_sliding_up_panel/flutter_sliding_up_panel.dart';
+import 'package:learn_flutter_coba/all/home.dart';
 
 class SlidingUp extends StatefulWidget {
   @override
@@ -89,6 +90,15 @@ class _MyHomePageState extends State<MyHomePage> {
         Scaffold(
           appBar: AppBar(
             title: Text(widget.title),
+            leading: IconButton(
+              icon: Icon(Icons.arrow_back),
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => HomePage()),
+                );
+              },
+            ),
             actions: <Widget>[
               IconButton(
                 icon: Icon(Icons.settings),
