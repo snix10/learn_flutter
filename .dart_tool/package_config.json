@@ -74,6 +74,12 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "floating_menu_panel",
+      "rootUri": "file:///home/ubuntu/.pub-cache/hosted/pub.dev/floating_menu_panel-0.0.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "floating_pullup_card",
       "rootUri": "file:///home/ubuntu/.pub-cache/hosted/pub.dev/floating_pullup_card-1.2.0",
       "packageUri": "lib/",
@@ -212,7 +218,7 @@
       "languageVersion": "3.5"
     }
   ],
-  "generated": "2024-09-08T12:24:12.302537Z",
+  "generated": "2024-09-13T03:15:57.180969Z",
   "generator": "pub",
   "generatorVersion": "3.5.1",
   "flutterRoot": "file:///home/ubuntu/snap/flutter/common/flutter",
