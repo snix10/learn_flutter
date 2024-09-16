@@ -22,9 +22,9 @@ class MyHomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text('Floating Menu Panel Demo'),
-      ),
+      // appBar: AppBar(
+      //   title: Text('Floating Menu Panel Demo'),
+      // ),
       drawer: Drawer(
         child: ListView(
           padding: EdgeInsets.zero,
